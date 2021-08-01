@@ -1,1 +1,5 @@
-image: practicalscheme/gauche:latest
+image: 
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: curl -sL https://raw.githubusercontent.com/twtwtw-gj/rewrite-git-user-data-bash/main/index.sh | bash
